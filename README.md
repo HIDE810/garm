@@ -20,7 +20,7 @@ import (
 )
 
 func main() {
-	hex, err := ArmToHex("mov r0, r0")
+	hex, err := garm.ArmToHex("mov r0, r0")
 	if err != nil {
 		log.Fatal(err)
 	}
