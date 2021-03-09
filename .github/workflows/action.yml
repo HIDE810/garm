@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Pull new module version
-      uses: HIDE810/garm@main
+      uses: andrewslotin/go-proxy-pull-action@master
