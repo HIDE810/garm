@@ -4,7 +4,7 @@ A simple ARM converter for Golang
 # Installation
 
 ```
-go get github.com/HIDE810/garm
+go get -u github.com/HIDE810/garm
 ```
 
 # Usage
