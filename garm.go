@@ -81,7 +81,7 @@ func HexToArm(code string) (string, error) {
 // ThumbToHex converts Thumb assembly to hexadecimal.
 func ThumbToHex(code string) (string, error) {
 	body := `{"asm":"` + code + `","offset":"","arch":"thumbbe"}`
-	mode := "hex.armbe"
+	mode := "hex.thumbbe"
 
 	result, err := convertCode(body, mode)
 	if err != nil {
@@ -93,7 +93,7 @@ func ThumbToHex(code string) (string, error) {
 // HexToThumb converts hexadecimal to Thumb assembly.
 func HexToThumb(code string) (string, error) {
 	body := `{"hex":"` + code + `","offset":"","arch":"thumbbe"}`
-	mode := "hex.armbe"
+	mode := "asm.thumbbe"
 
 	result, err := convertCode(body, mode)
 	if err != nil {
