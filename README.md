@@ -1,4 +1,4 @@
-# garm
+# garm [![Go Reference](https://pkg.go.dev/badge/github.com/HIDE810/garm.svg)](https://pkg.go.dev/github.com/HIDE810/garm)
 A simple ARM converter for Golang
 
 # Installation
